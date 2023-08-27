@@ -39,12 +39,9 @@ body {
 .long-text{
     display: block;
     width: 441;
-    /* position: absolute;
-    left: 138px;
-    top: 326px; */
     color: #51620D;
     font-weight: 600;
-    
+    font-size: 17px;
 }
 
 .contact {
@@ -65,7 +62,7 @@ body {
     left: 0%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 890px) {
     .main-container {
         display: block;
         position: static;
@@ -85,5 +82,14 @@ body {
     }
     .main-container {
         margin-left: 10px;
+    }
+    .main-text, .secondary-text{
+        font-size: 44px;
+    }
+    .contact{
+        font-size: 18px;
+    }
+    .long-text{
+        font-size: 12px;
     }
 } 
