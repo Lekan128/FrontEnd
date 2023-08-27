@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f7fc;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #3a66a1;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.link {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #e3f1ff;
+    color: #3a66a1;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+.link:hover {
+    background-color: #3a66a1;
+    color: white;
+}
